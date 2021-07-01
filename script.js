@@ -1,6 +1,7 @@
 let long;
 let lat;
-let temp;
-let summ;
-let location;
-let icon;
+let temp = document.querySelector(".temp");
+let summ = document.querySelector(".summary");
+let location = document.querySelector(".location");
+let icon = document.querySelector(".icon");
+
