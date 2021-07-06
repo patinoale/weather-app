@@ -13,6 +13,15 @@ window.addEventListener("load", () => {
             console.log(position);
             long = position.coords.longitude;
             lat = position.coords.latitude;
+            
+            // API ID 
+            const api = "";
+
+            // API URL
+            const base = ``;
+
+            // Calling the API
+            fetch(base).then =>
         })
     }
 })
