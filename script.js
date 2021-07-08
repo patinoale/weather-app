@@ -21,7 +21,12 @@ window.addEventListener("load", () => {
             const base = ``;
 
             // Calling the API
-            fetch(base).then =>
+            fetch(base)
+                .then ((response) => {
+                    return response.json();
+        })
+        .then((data) => {
+            
         })
     }
 })
