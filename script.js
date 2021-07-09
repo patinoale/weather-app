@@ -26,7 +26,8 @@ window.addEventListener("load", () => {
                     return response.json();
         })
         .then((data) => {
-            
+            temp.textContent = 
+                Math.floor(data.main.temp - kelvin) + "°C";
         })
     }
 })
