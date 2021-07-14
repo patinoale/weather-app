@@ -28,6 +28,10 @@ window.addEventListener("load", () => {
         .then((data) => {
             temp.textContent = 
                 Math.floor(data.main.temp - kelvin) + "°C";
+            summ.textContent = data.weather[0].description;
+            location.textContent = data.name + "," + data.sys.country;
+            let icon1 = data.weather[0].icon;
+            icon.innerHTML = `<img src="icons/${icon1}.svg" style= 'height:10rem'/>`;
         })
     }
 })
