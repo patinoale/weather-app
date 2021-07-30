@@ -1,9 +1,10 @@
-let long;
+let lon;
 let lat;
-let temp = document.querySelector(".temp");
-let summ = document.querySelector(".summary");
-let location = document.querySelector(".location");
+let temperature = document.querySelector(".temp");
+let summary = document.querySelector(".summary");
+let loc = document.querySelector(".location");
 let icon = document.querySelector(".icon");
+const kelvin = 273;
 
 // const api = "";
 
